@@ -2,7 +2,8 @@
 
 // Objetivo
 // Adicionar os componentes visuais de um formulário de login:
-// rótulos, campo de usuário, campo de senha e botão. Ainda sem nenhuma validação.
+// rótulos, campo de usuário, campo de senha e botão.
+// Ainda sem nenhuma validação.
 
 package horizonlogin;
 

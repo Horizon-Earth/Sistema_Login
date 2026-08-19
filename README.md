@@ -109,17 +109,8 @@ Sistema-de-Login/
 │
 ├── CF/
 │
-├── MBD/
-│   ├── DER/
-│   ├── DL/
-│   └── Scripts SQL/
-│
 ├── DESIGNER/
 │
 ├── ICONS/
 │
-├── UTEIS/
-│
 ├── UML/
-│
-└── PPT/

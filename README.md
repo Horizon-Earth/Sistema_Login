@@ -92,7 +92,7 @@ As principais tecnologias planejadas para o projeto são:
 | --------------------- | ----------------------------------------------- |
 | ☕ **Java**            | Desenvolvimento da aplicação e regras de negócio |
 | 🖥️ **Java Swing**     | Desenvolvimento da interface gráfica            |
-| 💾 **Banco de Dados** | Armazenamento das informações dos usuários       |
+| 💾 **Banco de Dados** (futuramente) | Armazenamento das informações dos usuários       |
 
 Outras tecnologias poderão ser adicionadas conforme o desenvolvimento do projeto.
 

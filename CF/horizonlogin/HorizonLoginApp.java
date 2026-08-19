@@ -8,7 +8,6 @@ package horizonlogin;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
-import java.net.URL;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -17,6 +16,7 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
+import java.io.File;
 
 public class HorizonLoginApp {
 
@@ -61,16 +61,33 @@ public class HorizonLoginApp {
         // Faz com que os componentes estiquem horizontalmente para preencher o espaço da célula
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        // --- SEÇÃO DO ÍCONE DO PAINEL ---
-        
-        // Busca o arquivo da imagem dentro da pasta do projeto (pasta CF)
-        URL urlIcone = HorizonLoginApp.class.getResource("/ICONS/horizon_icon.png");
-        
-        // Transforma a imagem carregada em um objeto ImageIcon utilizável pelo Swing
-        ImageIcon icon = new ImageIcon(urlIcone);
-        
-        // Cria um rótulo (Label) contendo apenas a imagem do ícone
-        JLabel lblIconePainel = new JLabel(icon); 
+     // --- SEÇÃO DO ÍCONE DO PAINEL ---
+
+        // Aponta para a pasta ICONS fora do CF
+        File arquivoIcone = new File("ICONS/horizon_icon01.png");
+
+        // Declara os objetos fora para estarem acessíveis
+        ImageIcon icon = null;
+        JLabel lblIconePainel = null;
+
+        if (arquivoIcone.exists()) {
+            icon = new ImageIcon(arquivoIcone.getAbsolutePath());
+            lblIconePainel = new JLabel(icon);
+
+            // Configuração na grade do GridBagLayout
+            gbc.gridx = 0;
+            gbc.gridy = 0;
+            gbc.gridwidth = 2;
+            gbc.anchor = GridBagConstraints.CENTER;
+
+            // Adiciona a imagem ao painel
+            painelLogin.add(lblIconePainel, gbc);
+
+            // Define o ícone da janela
+            frame.setIconImage(icon.getImage());
+        } else {
+            System.err.println("Imagem não encontrada em: " + arquivoIcone.getAbsolutePath());
+        }
         
         // Posiciona o ícone na primeira coluna (X = 0) e na primeira linha (Y = 0) da grade
         gbc.gridx = 0;

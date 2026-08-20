@@ -1,23 +1,40 @@
-# Ata de Reunião - Definição da v1.0
+# Ata de Reunião — Definição da v1.0
 
-**Data:** 12/08/2026  
-**Participantes:** Caio Salgado, Murilo Belizário, Bryan William  
+| Informação | Detalhes |
+| :--- | :--- |
+| **Projeto** | Sistema de Login |
+| **Organização** | Horizon-Earth |
+| **Data** | 12 de Agosto de 2026 |
+| **Pauta** | Definição do escopo inicial (v1.0), stack tecnológica, papeis da equipe e identidade visual |
+| **Participantes** | Caio Salgado, Murilo Belizário, Bryan William, Mario Gabriel, Miguel Freitas |
 
-**Pauta:** Definição das funcionalidades iniciais, definição do projeto e padrão de interface.
+---
 
-**Decisões Tomadas:**
-- O Nome da empresa foi decidido como Horizon-Earth
-- O projeto utilizará Java Swing, MYSQL, HTML5, CSS3
-- As linguagens HTML e CSS será utilizada para demonstração do projeto na sua versão final.
-- Caio Salgado ficará responsável pela Interface gráfica e a linguagem Java Swing
-- Bryan William ficará responsável por irá analisar o Backend da plataforma e produzi-la
-- Murilo Belizário ficará responsável por produzir o Banco de Dados da Plataforma.
-- Mario Gabriel ficará responsável por produzir a Interface Gráfica da Plataforma (UI e UX).
-- Miguel Freitas ficará responsável pela Interface do site utilizando FIGMA.
+## 1. Decisões Tomadas
 
-**Ações (Próximos Passos):**
-- [ ] Caio: Conectar os campos Swing às validações do backend (Prazo: 25/08).
-- [ ] Bryan: Criar scripts de teste para autenticação (Prazo: 27/08).
-- [ ] Murilo: Criar o Banco de dados para utilização de API e LOGIN (Prazo: 28/08).
-- [ ] Mario: Criar uma interface utilizando os conceitos de UX
-- [ ] Miguel: Produzir a logo da Empresa e do Software.
+### 1.1 Identidade da Empresa
+- Ficou definido que o nome oficial da empresa/grupo será **Horizon-Earth**.
+
+### 1.2 Stack Tecnológica
+- **Backend & Aplicação Desktop:** Java utilizando a biblioteca **Java Swing** para construção das telas.
+- **Banco de Dados:** **MySQL**.
+- **Demonstração Web:** **HTML5** e **CSS3** serão utilizados exclusivamente para a apresentação/demonstração da versão final da plataforma.
+
+### 1.3 Divisão de Papéis e Responsabilidades
+- **Caio Salgado:** Desenvolvimento da Interface Gráfica em Java Swing e conexão de eventos de tela.
+- **Bryan William:** Análise, arquitetura e desenvolvimento da lógica de Backend da plataforma.
+- **Murilo Belizário:** Modelagem, estruturação e manutenção do Banco de Dados MySQL.
+- **Mario Gabriel:** Design de Interface e Experiência do Usuário (UI/UX).
+- **Miguel Freitas:** Prototipação das telas no Figma e criação do design de marca.
+
+---
+
+## 2. Plano de Ação (Próximos Passos)
+
+| Responsável | Atividade / Tarefa | Prazo | Status |
+| :--- | :--- | :---: | :---: |
+| **Caio Salgado** | Conectar os campos Swing às validações do backend | 25/08/2026 | ⏳ Em andamento |
+| **Bryan William** | Criar scripts de teste para autenticação | 27/08/2026 | ⏳ Em andamento |
+| **Murilo Belizário** | Criar o banco de dados para utilização da API e tela de Login | 28/08/2026 | ⏳ Em andamento |
+| **Mario Gabriel** | Desenvolver a interface aplicando conceitos e boas práticas de UX | A definir | 📌 Planejado |
+| **Miguel Freitas** | Produzir a logo da empresa (Horizon-Earth) e do software | A definir | 📌 Planejado |

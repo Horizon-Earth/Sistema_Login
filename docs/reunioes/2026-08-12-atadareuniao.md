@@ -1,4 +1,4 @@
-# Ata de Reunião — Definição da v1.0
+# Ata de Reunião — Definição da v0.1
 
 | Informação | Detalhes |
 | :--- | :--- |
